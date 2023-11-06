@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="100dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/et_name"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="250dp"
+        style="@android:style/Widget.EditText"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_go"
+        style="@style/Platform.MaterialComponents"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="300dp" />
+</LinearLayout>

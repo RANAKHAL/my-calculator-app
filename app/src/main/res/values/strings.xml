@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="et_name">Enter Your Name</string>
+    <string name="btn_go">Go To Calculator</string>
+    <string name="hi">Hi, </string>
+    <string name="hello">Hello In Calculator App</string>
+    <string name="enter_name_msg">Please Enter Your Name :(</string>
+</resources>
